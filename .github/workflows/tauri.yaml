@@ -5,10 +5,7 @@ on:
   push:
     branches:
       - release
-
-# Just for the demo, ship to the QA environment
-env:
-  CN_ENV: qa
+      - "0.1.0"
 
 jobs:
   draft:
